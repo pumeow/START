@@ -1,6 +1,4 @@
-#include <iostream>
 #include <stdio.h>
-#include <math.h>
 using namespace std;
 
 int main()
@@ -14,7 +12,7 @@ int main()
             {
                 m=100*i+10*j+k;
                 if(m==i*i*i+j*j*j+k*k*k)
-                    printf("%d 是水仙花数\n",m);
+                    printf("%d\n",m);
             }
         }
     }
